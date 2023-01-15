@@ -1,0 +1,95 @@
+* {
+  font-family: "Amazon Ember";
+  font-weight: 500;
+  font-style: normal;
+  font-family: "AmazonEmber";
+  font-weight: bold;
+  font-style: normal;
+  font-family: "Amazon Ember Cd RC";
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  margin-top: 2rem;
+}
+.right-col {
+  float: right;
+  width: 244px;
+  margin-left: 20px;
+}
+.left-col {
+  width: 50%;
+  float: left;
+}
+.nav {
+  li {
+    list-style: none;
+  }
+  img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+.logo {
+  width: 62px;
+  height: 20px;
+  background-image: url(https://m.media-amazon.com/images/S/sash/McBZv0ZvnbehkIx.png);
+  background-position-x: -229px;
+  background-position-y: 316px;
+}
+.table {
+  border: 1px solid gray;
+
+  height: 142px;
+}
+.center-col {
+  a {
+    text-decoration: none;
+  }
+  p {
+    margin: 5px;
+  }
+}
+.ff {
+  font-size: 14px;
+  padding-left: 1rem;
+}
+.f {
+  font-size: 14px;
+}
+.map {
+  border-bottom: 1.5px solid rgb(162, 162, 162);
+}
+.main {
+  border-top: 1.5px solid rgb(162, 162, 162);
+  // width: 440px;
+  border-bottom: 1.5px solid rgb(162, 162, 162);
+}
+.buton {
+  border-style: dashed;
+  margin-right: 0.5rem;
+}
+.buton:hover {
+  color: var(--bs-dark);
+}
+.buton:focus {
+  border: 3px solid var(--bs-orange);
+  box-sizing: content-box;
+}
+.scale {
+  transition: 1s; /* Время эффекта */
+}
+.scale:hover {
+  //   transform: translate(100px, 300px);
+  transform: scale(32);
+  //   width: max-content;
+}
+.ptp:hover {
+  //   box-shadow: 5px 5px 1px var(--bs-orange), -5px -5px 2px var(--bs-orange);
+  //   box-shadow: 5px 0px 5px var(--bs-orange);
+  cursor: pointer;
+  border: 3px solid var(--bs-orange);
+  box-sizing: content-box;
+}
