@@ -31,7 +31,13 @@ body {
     margin-bottom: 10px;
   }
 }
-
+.tt {
+  width: 100%;
+  background-image: url(https://m.media-amazon.com/images/I/51R90b-WV1L._AC_SX679_.jpg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-sizing: content-box;
+}
 .logo {
   width: 62px;
   height: 20px;
@@ -83,7 +89,7 @@ body {
 }
 .scale:hover {
   //   transform: translate(100px, 300px);
-  transform: scale(32);
+  transform: scale(25);
   //   width: max-content;
 }
 .ptp:hover {
@@ -92,4 +98,7 @@ body {
   cursor: pointer;
   border: 3px solid var(--bs-orange);
   box-sizing: content-box;
+}
+.itd {
+  color: var(--bs-gray-400);
 }

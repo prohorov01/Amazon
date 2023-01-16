@@ -35,6 +35,14 @@ body {
   margin-bottom: 10px;
 }
 
+.tt {
+  width: 100%;
+  background-image: url(https://m.media-amazon.com/images/I/51R90b-WV1L._AC_SX679_.jpg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+  box-sizing: content-box;
+}
+
 .logo {
   width: 62px;
   height: 20px;
@@ -92,11 +100,15 @@ body {
 }
 
 .scale:hover {
-  transform: scale(32);
+  transform: scale(25);
 }
 
 .ptp:hover {
   cursor: pointer;
   border: 3px solid var(--bs-orange);
   box-sizing: content-box;
+}
+
+.itd {
+  color: var(--bs-gray-400);
 }/*# sourceMappingURL=test.css.map */
