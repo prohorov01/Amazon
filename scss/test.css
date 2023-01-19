@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   font-family: "Amazon Ember";
   font-weight: 500;
@@ -15,15 +14,31 @@ body {
   margin-top: 2rem;
 }
 
+.p2p {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  background-color: #fff;
+  position: absolute;
+}
+.p2p > a > img {
+  width: 24px;
+  height: 24px;
+}
+
 .right-col {
   float: right;
   width: 244px;
   margin-left: 20px;
+  font-size: 13px;
 }
 
 .left-col {
   width: 50%;
   float: left;
+}
+
+.left-img {
+  width: 3%;
 }
 
 .nav li {
@@ -36,11 +51,12 @@ body {
 }
 
 .tt {
-  width: 100%;
-  background-image: url(https://m.media-amazon.com/images/I/51R90b-WV1L._AC_SX679_.jpg);
+  width: 90%;
+  background-image: url(https://m.media-amazon.com/images/I/71qhLg1DPVL._AC_SY450_.jpg);
   background-repeat: no-repeat;
   cursor: pointer;
   box-sizing: content-box;
+  position: relative;
 }
 
 .logo {
@@ -53,7 +69,7 @@ body {
 
 .table {
   border: 1px solid gray;
-  height: 142px;
+  height: 156px;
 }
 
 .center-col a {
@@ -96,7 +112,7 @@ body {
 }
 
 .scale {
-  transition: 1s; /* Время эффекта */
+  transition: 1s;
 }
 
 .scale:hover {
